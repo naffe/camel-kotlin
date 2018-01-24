@@ -28,6 +28,7 @@ repositories {
     mavenCentral()
     mavenLocal()
     jcenter()
+    maven {url = 'http://dl.bintray.com/naffe/io.naffe'}
 
 }
 
@@ -64,10 +65,8 @@ dependencies {
     testCompile "org.springframework.boot:spring-boot-starter-test"
 
     //test - wssimulator
-    testCompile('cognitivej:microsimulator:0.4.0') {
-        exclude group: "org.slf4j", module: "slf4j-simple"
-        exclude group: "javax.mail", module: "mailapi"
-    }
+    testCompile('io.naffe:microsimulator-ws:0.4.0')
+    testCompile('io.naffe:microserver-jms:1.0.1')
 
     //test - activemq (JMS)
     testCompile 'org.apache.activemq:activemq-broker:5.15.2'

@@ -1,3 +1,4 @@
+[![CircleCI](https://circleci.com/gh/naffe/camel-kotlin.svg?style=svg)](https://circleci.com/gh/naffe/camel-kotlin)
 **Getting started with Camel, Kotlin and Spring Boot.** 
 
 This project shows how to wire up a Camel, Kotlin and Spring boot application. More information can be found at 
