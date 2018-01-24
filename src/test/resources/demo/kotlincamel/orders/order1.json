@@ -1,0 +1,25 @@
+{
+  "customerId": "123456",
+  "lines": [
+    {
+      "lineId": 1,
+      "sku": "abc001",
+      "qty": 1.0
+    },
+    {
+      "lineId": 2,
+      "sku": "abc002",
+      "qty": 5.0
+    },
+    {
+      "lineId": 3,
+      "sku": "abc003",
+      "qty": 1.0
+    },
+    {
+      "lineId": 4,
+      "sku": "abc004",
+      "qty": 9.0
+    }
+  ]
+}

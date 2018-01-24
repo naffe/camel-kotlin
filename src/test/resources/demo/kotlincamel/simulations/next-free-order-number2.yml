@@ -1,0 +1,10 @@
+path: /ordernumber/next
+httpMethod: get
+request:
+          filterType: callCount
+          filter: 2
+response:
+         contentType: "application/text"
+         body: '111111'
+         statusCode: 201
+name: next-order-number-simulation

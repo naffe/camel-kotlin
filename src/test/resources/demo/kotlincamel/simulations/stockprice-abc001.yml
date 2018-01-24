@@ -1,0 +1,8 @@
+path: /stock/price/abc001
+httpMethod: get
+response:
+         contentType: "application/json"
+         body: '100.00'
+         statusCode: 201
+name: stock-price-abc001
+latency: 2000-4000
